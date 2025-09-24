@@ -14,7 +14,10 @@
 .grid-container img:last-child {
     grid-column: span 3;
 }
-.grid-container img:first-child {
+.item1 {
     border: 5px solid green;
     padding: 10px;
+}
+.item7 {
+    grid-column: 1/-1;
 }
